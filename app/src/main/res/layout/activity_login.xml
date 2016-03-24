@@ -9,17 +9,10 @@
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
     tools:context="com.localreverb.localreverb.LoginActivity"
-    android:background="#38474e"
-    android:weightSum="1">
+    android:weightSum="1"
+    android:background="@drawable/colorblock">
 
     <!-- Login progress -->
-    <ImageView
-        android:layout_width="348dp"
-        android:layout_height="133dp"
-        android:id="@+id/imageView"
-        android:layout_gravity="center_horizontal"
-        android:src="@drawable/logo2"
-        android:layout_weight="0.30" />
 
     <ProgressBar
         android:id="@+id/login_progress"
@@ -33,7 +26,9 @@
         android:id="@+id/login_form"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:background="#9f9f9f">
+        android:background="#9f9f9f"
+        android:layout_weight="0.07"
+        android:touchscreenBlocksFocus="false">
 
         <LinearLayout
             android:id="@+id/email_login_form"

@@ -23,4 +23,12 @@
     <string name="menu5">Local Calendar</string>
     <string name="header">Local Reverb</string>
     <string name="title_activity_search_db">SearchDB</string>
+    <string name="title_activity_create_event">CreateEvent</string>
+
+    <string name="dialogSuccess">Success</string>
+    <string name="successEvent">You have successfully created an event!</string>
+    <string-array name="search_options">
+        <item><sting>Event Name</sting></item>
+        <item><string>Artist Name</string></item>
+    </string-array>
 </resources>

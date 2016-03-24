@@ -2,24 +2,22 @@ package com.localreverb.localreverb;
 
 import android.content.Intent;
 import android.os.Bundle;
-import android.support.design.widget.FloatingActionButton;
-import android.support.design.widget.Snackbar;
 import android.support.v7.app.AppCompatActivity;
-import android.support.v7.widget.Toolbar;
 import android.view.View;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.widget.Button;
 import android.widget.TextView;
 
-import com.localreverb.localreverb.connection.MongoConnect;
+import com.localreverb.localreverb.services.MongoConnect;
 
 public class MainActivity extends AppCompatActivity {
 
     private TextView connectResult;
-    MongoConnect test = new MongoConnect();
+    MongoConnect test = new MongoConnect(null);
     String x = test.connectTest();
     private Button searchEvent;
+    private Button createEvent;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -36,6 +34,16 @@ public class MainActivity extends AppCompatActivity {
                 Intent intent = new Intent(getApplicationContext(), SearchDB.class);
                 startActivity(intent);
             }
+        });
+
+        createEvent = (Button)findViewById(R.id.button);
+        createEvent.setOnClickListener(new View.OnClickListener(){
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(getApplicationContext(), CreateEvent.class);
+                startActivity(intent);
+            }
+
         });
 
 

@@ -7,19 +7,8 @@
     android:fitsSystemWindows="true"
     tools:context="com.localreverb.localreverb.MainActivity"
     android:orientation="vertical"
-    android:background="#38474e">
+    android:background="@drawable/colorblock">
 
-
-    <ImageView
-        android:layout_width="fill_parent"
-        android:layout_height="wrap_content"
-        android:id="@+id/imageView2"
-        android:nestedScrollingEnabled="false"
-        android:src="@drawable/rocker"
-        android:contentDescription="rocker"
-        android:layout_above="@+id/linearLayout"
-        android:layout_alignParentLeft="true"
-        android:layout_alignParentStart="true" />
 
     <TextView
         android:layout_width="wrap_content"
