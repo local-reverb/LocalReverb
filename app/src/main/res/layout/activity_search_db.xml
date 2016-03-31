@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true"
+    tools:context="com.localreverb.localreverb.SearchDB"
+    android:orientation="vertical"
+    android:weightSum="1">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Search Event Listings"
+        android:id="@+id/textView2"
+        android:layout_gravity="center_horizontal" />
+
+    <EditText
+        android:layout_width="404dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/search"
+        android:hint="search"
+        android:imeOptions="actionSend"
+        android:imeActionLabel="search" />
+
+    <Spinner
+        android:layout_width="216dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/searchSpinner"
+        android:layout_gravity="center_horizontal" />
+
+    <Button
+        android:layout_width="129dp"
+        android:layout_height="wrap_content"
+        android:text="search"
+        android:id="@+id/srchButton"
+        android:nestedScrollingEnabled="false"
+        android:layout_gravity="center_horizontal" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="search result "
+        android:id="@+id/searchResult"
+        android:layout_gravity="center"
+        android:textStyle="bold" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:id="@+id/artistResult"
+        android:layout_gravity="center_horizontal" />
+
+    <ProgressBar
+        style="?android:attr/progressBarStyleSmall"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/searchProgressBar"
+        android:layout_gravity="center_horizontal"
+        android:visibility="invisible"
+        android:indeterminate="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:id="@+id/descriptionResult"
+        android:layout_gravity="center_horizontal" />
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="663dp">
+
+        <ListView
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/EventColumn"
+            android:layout_gravity="center_horizontal" />
+
+        <ListView
+            android:layout_width="115dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/ArtistColumn" />
+
+        <ListView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/DescriptionColumn"
+            android:layout_weight="1" />
+    </LinearLayout>
+
+</LinearLayout>
