@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Create New Event"
+        android:id="@+id/eventTitle"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="40dp" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/EventName"
+        android:layout_marginTop="38dp"
+        android:hint="Event Name"
+        android:layout_below="@+id/eventTitle"
+        android:layout_alignRight="@+id/ArtistName"
+        android:layout_alignEnd="@+id/ArtistName"
+        android:layout_alignLeft="@+id/ArtistName"
+        android:layout_alignStart="@+id/ArtistName" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName"
+        android:ems="10"
+        android:id="@+id/ArtistName"
+        android:layout_below="@+id/EventName"
+        android:hint="Artist Name"
+        android:layout_alignLeft="@+id/EventDescription"
+        android:layout_alignStart="@+id/EventDescription"
+        android:layout_alignRight="@+id/EventDescription"
+        android:layout_alignEnd="@+id/EventDescription" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="textMultiLine"
+        android:ems="10"
+        android:id="@+id/EventDescription"
+        android:lines="5"
+        android:hint="Event Description"
+        android:layout_below="@+id/ArtistName"
+        android:layout_centerHorizontal="true" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Submit"
+        android:id="@+id/submitEvent"
+        android:layout_below="@+id/EventDescription"
+        android:layout_alignLeft="@+id/eventTitle"
+        android:layout_alignStart="@+id/eventTitle"
+        android:layout_alignRight="@+id/eventTitle"
+        android:layout_alignEnd="@+id/eventTitle" />
+
+</RelativeLayout>
