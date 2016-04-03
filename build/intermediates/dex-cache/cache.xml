@@ -1,2 +1,96 @@
 <?xml version="1.0" encoding="utf-8"?>
-<items version="2" />
+<items version="2" >
+
+    <item
+        jar="/Users/jeremydennen/Development/android/LocalReverb/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.1.1/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="6cbc7773921fcfedbe55657578f0cbfe614778dc">
+        <dex dex="/Users/jeremydennen/Development/android/LocalReverb/app/build/intermediates/pre-dexed/debug/com.android.support-support-v4-23.1.1_1125264c42cec4e352c87cb5068b1a64f9b2347c.jar" />
+    </item>
+    <item
+        jar="/Users/jeremydennen/Development/android/LocalReverb/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/8.4.0/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="8e673cdfadd8f2d98fdb2fda2285c30f6e449782">
+        <dex dex="/Users/jeremydennen/Development/android/LocalReverb/app/build/intermediates/pre-dexed/debug/com.google.android.gms-play-services-basement-8.4.0_2633fef70cedaee6b5b4ecfebc02d637a29a2ef8.jar" />
+    </item>
+    <item
+        jar="/Users/jeremydennen/Library/Android/sdk/extras/android/m2repository/com/android/support/support-annotations/23.1.1/support-annotations-23.1.1.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="8d680ba5a623724d1fb0e81c36a790f023a6cede">
+        <dex dex="/Users/jeremydennen/Development/android/LocalReverb/app/build/intermediates/pre-dexed/debug/support-annotations-23.1.1_ad3b28accbf64881df4071402a446361fb2d5c40.jar" />
+    </item>
+    <item
+        jar="/Users/jeremydennen/.gradle/caches/modules-2/files-2.1/org.mongodb/bson/3.2.1/442694125ffcf9adca54e1241a90fdf45857d0a1/bson-3.2.1.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="442694125ffcf9adca54e1241a90fdf45857d0a1">
+        <dex dex="/Users/jeremydennen/Development/android/LocalReverb/app/build/intermediates/pre-dexed/debug/bson-3.2.1_b6fad053037d181194c7bc142a0daee862f27453.jar" />
+    </item>
+    <item
+        jar="/Users/jeremydennen/Development/android/LocalReverb/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-maps/8.4.0/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="04de44f90606c77f3b28cf44861f306290505aac">
+        <dex dex="/Users/jeremydennen/Development/android/LocalReverb/app/build/intermediates/pre-dexed/debug/com.google.android.gms-play-services-maps-8.4.0_3603c83714c1592abc6b63489e4e06ec718bd996.jar" />
+    </item>
+    <item
+        jar="/Users/jeremydennen/.gradle/caches/modules-2/files-2.1/org.mongodb/mongodb-driver-core/3.2.1/f48411deb991f7f27d8a5222c72c5dc99a1b1384/mongodb-driver-core-3.2.1.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="f48411deb991f7f27d8a5222c72c5dc99a1b1384">
+        <dex dex="/Users/jeremydennen/Development/android/LocalReverb/app/build/intermediates/pre-dexed/debug/mongodb-driver-core-3.2.1_ffb360da59e026a4f81ef34922666357a56952a7.jar" />
+    </item>
+    <item
+        jar="/Users/jeremydennen/.gradle/caches/modules-2/files-2.1/org.mongodb/mongodb-driver/3.2.1/61679326122bbcd357a95d8fa99d0c06c9422a3a/mongodb-driver-3.2.1.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="61679326122bbcd357a95d8fa99d0c06c9422a3a">
+        <dex dex="/Users/jeremydennen/Development/android/LocalReverb/app/build/intermediates/pre-dexed/debug/mongodb-driver-3.2.1_eea4db1f294dd8f26780e3ee346bf36ef68cab60.jar" />
+    </item>
+    <item
+        jar="/Users/jeremydennen/Development/android/LocalReverb/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="5c5699834e9722f1c288fea2de82725d078ba127">
+        <dex dex="/Users/jeremydennen/Development/android/LocalReverb/app/build/intermediates/pre-dexed/debug/com.android.support-appcompat-v7-23.1.1_d3b5cef5a758cdef71f225908effebac18f69b55.jar" />
+    </item>
+    <item
+        jar="/Users/jeremydennen/Development/android/LocalReverb/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-location/8.4.0/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="a8412b654dab86d57bf90683367488211c8a81f1">
+        <dex dex="/Users/jeremydennen/Development/android/LocalReverb/app/build/intermediates/pre-dexed/debug/com.google.android.gms-play-services-location-8.4.0_a40ff41ae914c78ed98125c97acf7c4995f64837.jar" />
+    </item>
+    <item
+        jar="/Users/jeremydennen/Development/android/LocalReverb/app/build/intermediates/exploded-aar/com.android.support/design/23.1.1/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="379471b2bd17d9737c050345c08e8c7d16589784">
+        <dex dex="/Users/jeremydennen/Development/android/LocalReverb/app/build/intermediates/pre-dexed/debug/com.android.support-design-23.1.1_96f439c8e83f6dd44cdc1170cd92baa0e1b1c123.jar" />
+    </item>
+    <item
+        jar="/Users/jeremydennen/Development/android/LocalReverb/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.1.1/jars/libs/internal_impl-23.1.1.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="a4de9c81ae239414e1ed0f86441b02abaf29bca9">
+        <dex dex="/Users/jeremydennen/Development/android/LocalReverb/app/build/intermediates/pre-dexed/debug/internal_impl-23.1.1_af9d1b8c550b6d628b6aa6059d711c319cdb8bf8.jar" />
+    </item>
+    <item
+        jar="/Users/jeremydennen/Development/android/LocalReverb/app/build/intermediates/exploded-aar/com.android.support/recyclerview-v7/23.1.1/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="09c5e804bc67fc0580360043dff067df574a60d4">
+        <dex dex="/Users/jeremydennen/Development/android/LocalReverb/app/build/intermediates/pre-dexed/debug/com.android.support-recyclerview-v7-23.1.1_9865e2bec20eea9475c69e1e3f00b2ddf8f4f83b.jar" />
+    </item>
+    <item
+        jar="/Users/jeremydennen/Development/android/LocalReverb/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/8.4.0/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="fef2b3e4b6b1b0e5fe7b69fa137a5fa55a3182ab">
+        <dex dex="/Users/jeremydennen/Development/android/LocalReverb/app/build/intermediates/pre-dexed/debug/com.google.android.gms-play-services-base-8.4.0_a95fbff77fd85066af7c067a56974566d85488bc.jar" />
+    </item>
+
+</items>
